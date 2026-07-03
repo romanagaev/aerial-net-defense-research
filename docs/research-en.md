@@ -23,6 +23,7 @@
 8. [Engineering Challenges & Solutions](#8-engineering-challenges--solutions)
 8A. [Airship/Aerostat Self-Protection](#8a-airshipaerostat-self-protection)
 9. [Cost Feasibility Analysis](#9-cost-feasibility-analysis)
+9A. [CF Net vs Rafael Iron Beam, Trophy APS, and Laser Systems](#9a-cf-net-vs-rafael-iron-beam-trophy-aps-and-laser-systems)
 10. [Use Case: Israeli Border Defense](#10-use-case-israeli-border-defense)
 11. [Existing Patents & Academic Research](#11-existing-patents--academic-research)
 12. [Technical Feasibility Scorecard](#12-technical-feasibility-scorecard)
@@ -586,6 +587,70 @@ The carbon fiber net system has **zero cost per intercept** after deployment:
 
 ---
 
+## 9A. CF Net vs Rafael Iron Beam, Trophy APS, and Laser Systems
+
+![CF Net vs Active Defense Systems](../images/infographics/cf-net-vs-active-defense.png)
+
+### Rafael's Active Defense Systems (2025-2026)
+
+Rafael Advanced Defense Systems has introduced three systems targeting the drone threat:
+
+1. **Iron Beam** (100kW High-Energy Laser): Delivered to IDF December 28, 2025. First operational laser air defense system in the world. Engages drones, rockets, and mortars at ranges up to 7-10 km. Cost per engagement: ~$3.50 in energy. Integrated with Iron Dome C2 network. (Source: Israel MOD press release, Dec 2025; Rafael official product page; Army Technology)
+
+2. **Trophy APS** (Hard-Kill Active Protection): Upgraded in 2025 to counter kamikaze drones and top-attack munitions. AI-driven sensor fusion with 360-degree detection. Uses explosive effectors. Deployed on Merkava Mk IV, Namer, M1A2 Abrams, Leopard 2. Over 2 million operational hours. (Source: Army Recognition Jan 2025; Breaking Defense Oct 2024; Autonomy Global)
+
+3. **Lite Beam** (10kW Tactical Laser): Lightweight laser for mobile units. Range ~2,000m. Designed for vehicle-mounted counter-drone. (Source: Breaking Defense Oct 2024)
+
+### Why CF Net Barriers Are Complementary (Not Competitive)
+
+These systems are impressive but have critical limitations that passive CF net barriers address:
+
+| Factor | Iron Beam (Laser) | Trophy APS | Lite Beam (10kW) | CF Net Barrier |
+|---|---|---|---|---|
+| Cost per engagement | ~$3.50 (energy only) | Effector consumed | ~$1 (energy) | $0 (passive) |
+| System acquisition cost | ~$50-100M per battery | ~$500K per vehicle | ~$1-5M | $2-50M per border section |
+| Works in fog/rain/dust? | NO - severely degraded | Yes | NO - degraded | YES - unaffected |
+| Works in smoke/obscurants? | NO | Partially | NO | YES |
+| Works vs fiber-optic FPV? | Must detect first (no RF signature) | Close-range only (~30m) | Must detect first | YES - passive interception |
+| Simultaneous targets | 1 per 3-5 seconds | 1 at a time | 1 at a time | Unlimited (physical barrier) |
+| Swarm defense (50+ drones) | 10-12/min max | Cannot handle swarms | 5-8/min max | All blocked simultaneously |
+| Requires power supply? | YES (massive - MW class) | YES (vehicle power) | YES | NO |
+| Requires operator? | YES | Automated but needs radar | YES | NO (passive) |
+| 24/7 passive operation? | NO (active system) | NO (active) | NO | YES |
+| Coverage area | Point defense (cone) | Vehicle perimeter only | Point defense (cone) | Area denial (entire barrier width) |
+| Altitude coverage | Line-of-sight only | Ground level | Line-of-sight only | Ground to 1,000m+ continuous |
+| Maintenance complexity | Clean room required for optics | Moderate | Clean room | Minimal (replace damaged panels) |
+| Weather dependency | HIGH - fog, rain, dust degrade | LOW | HIGH | NONE |
+
+### Critical Gaps That Only Passive Nets Address
+
+1. **Weather independence**: Iron Beam's 100kW delivers only 5-10kW effective power at 2km in heavy fog (Ukraine War Analytics 2026). CF nets work in any weather, any visibility, day or night.
+
+2. **Swarm saturation**: A laser kills 1 target per 3-5 seconds = max 12-20/minute. Russia launches 100-200 Shaheds per night. A physical barrier blocks ALL simultaneously with zero engagement delay.
+
+3. **Fiber-optic drone blindness**: Iron Beam and Lite Beam need to DETECT the threat first. Fiber-optic FPV drones emit zero RF, have minimal IR signature, and fly at 2-4m altitude. They are nearly invisible to radar. A physical net catches them regardless of detection.
+
+4. **Zero marginal cost at scale**: Iron Beam's $3.50/shot sounds cheap, but the system costs $50-100M. The amortized cost per kill including system acquisition is $500-2,000 (Ukraine War Analytics). CF net: $0 per intercept, forever, after one-time deployment.
+
+5. **No single point of failure**: A laser battery can be destroyed by a single missile hit. A net barrier is distributed — destroying one section doesn't eliminate the barrier. Panels are replaced for $4-10/sqm.
+
+### The Layered Defense Argument
+
+![Layered Defense Architecture](../images/infographics/layered-defense-architecture.png)
+
+![Active vs Passive Flow](../images/diagrams/diagram-active-vs-passive.png)
+
+Rafael themselves state that Trophy "alone cannot provide comprehensive air defense against drones" and advocate "a layered defense strategy" (Army Recognition, Jan 2025).
+
+The optimal architecture combines:
+- **Iron Beam / Lite Beam**: Active point defense for high-value targets in clear weather
+- **Trophy APS**: Vehicle-level self-protection against close-range threats
+- **CF Net Barriers**: Persistent, passive area denial across borders and critical infrastructure — the LAST LINE of defense that works when everything else fails
+
+This is not "nets OR lasers" — it is "nets AND lasers." The CF net barrier is the layer that catches everything the active systems miss: the drones that fly in fog, the swarm members that overwhelm laser engagement rates, and the fiber-optic FPV drones that are invisible to electronic sensors.
+
+---
+
 ## 10. Use Case: Israeli Border Defense
 
 ![Border Deployment Map](../images/infographics/border-deployment-map.png)
@@ -938,6 +1003,24 @@ The carbon fiber net system has **zero cost per intercept** after deployment:
 [R4] HAV, "Susceptibility, Vulnerability, & Survivability," hybridairvehicles.com.
 
 [R5] US Navy ONR, "Lighter Than Air Report," 2006.
+
+### Laser & Active Defense Systems
+
+[L1] Israel Ministry of Defense, "Israel MOD and Rafael Deliver First Operational High-Power Laser System - Iron Beam to the IDF," December 28, 2025.
+
+[L2] Rafael Advanced Defense Systems, "IRON BEAM - High Energy Laser Weapon System," rafael.co.il.
+
+[L3] Army Recognition, "Israel's Rafael upgrades its Trophy active protection system to counter kamikaze drones," January 2025.
+
+[L4] Breaking Defense, "Rafael rolls out Lite Beam laser, Trophy updates to protect vehicles from drone threats," October 2024.
+
+[L5] Ukraine War Analytics, "Counter-Drone Laser Systems in Ukraine 2026: DEW Analysis," ukraine-war-analytics.com.
+
+[L6] Robotics.press, "Deployment Report: Directed Energy Counter-UAS Systems," March 2026.
+
+[L7] US GAO, "Directed Energy Weapons: DOD Should Focus on Transition Planning," GAO-23-105868, 2023.
+
+[L8] Congressional Research Service, "Department of Defense Directed Energy Weapons: Background and Issues for Congress," R46925.
 
 ### WW2 Barrage Balloons & Modern Aerostat Combat Systems
 

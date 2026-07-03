@@ -47,6 +47,26 @@ Deploying carbon fiber mesh nets from zeppelins/airships at altitudes of 1–6 k
 
 ---
 
+## CF Net vs Iron Beam, Trophy APS, and Lasers
+
+![CF Net vs Active Defense](../images/infographics/cf-net-vs-active-defense.png)
+
+Rafael delivered Iron Beam (100kW laser, Dec 2025) and upgraded Trophy APS for drone defense. These are impressive but have critical gaps:
+
+| Factor | Iron Beam | Trophy APS | CF Net Barrier |
+|--------|-----------|------------|----------------|
+| Cost/engagement | $3.50 energy ($50-100M system) | Effector consumed | **$0** |
+| Works in fog/rain? | **NO** | Yes | **YES** |
+| Swarm defense (50+) | 12/min max | 1 at a time | **All simultaneously** |
+| Fiber-optic FPV? | Must detect first | 30m range only | **YES (passive)** |
+| 24/7 passive? | No | No | **YES** |
+
+**Not nets OR lasers — nets AND lasers.** CF nets are the passive layer that catches what active systems miss.
+
+![Layered Defense Architecture](../images/infographics/layered-defense-architecture.png)
+
+---
+
 ## Cost Analysis
 
 ![Cost Comparison](../images/infographics/cost-comparison-infographic.png)
