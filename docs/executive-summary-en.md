@@ -58,7 +58,7 @@ Rafael delivered Iron Beam (100kW laser, Dec 2025) and upgraded Trophy APS for d
 | Cost/engagement | $3.50 energy ($50-100M system) | Effector consumed | **$0** |
 | Works in fog/rain? | **NO** | Yes | **YES** |
 | Swarm defense (50+) | 12/min max | 1 at a time | **All simultaneously** |
-| Fiber-optic FPV? | Must detect first | 30m range only | **YES (passive)** |
+| Fiber-optic FPV? | Must detect first | Close-range only (<50m) | **YES (passive)** |
 | 24/7 passive? | No | No | **YES** |
 
 **Not nets OR lasers — nets AND lasers.** CF nets are the passive layer that catches what active systems miss.
