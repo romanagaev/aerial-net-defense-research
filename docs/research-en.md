@@ -93,7 +93,7 @@ This research demonstrates that deploying carbon fiber mesh nets from zeppelins/
 ### Why This Matters Now
 
 1. **Fiber-optic FPV drones** are immune to ALL electronic warfare — physical barriers are the only countermeasure
-2. **Cost asymmetry** is unsustainable — defenders spend $3–4M per Patriot missile against $10–30K drones
+2. **Cost asymmetry** is unsustainable — defenders spend $4–5M per Patriot MSE missile against $20–50K drones
 3. **Mass saturation attacks** (100–700 drones per night) overwhelm active defense systems
 4. **No existing system** provides passive, reusable, altitude-configurable area denial
 
@@ -116,16 +116,16 @@ Modern warfare has fundamentally shifted toward mass-produced, low-cost aerial t
 - **57,000+ Shaheds** launched against Ukraine as of March 2026 (accelerating to 100–700 per night)
 - **Fiber-optic FPV drones** bypass all electronic warfare (15–20% of Russian FPV fleet, growing)
 - **Hezbollah's 80+ FPV attacks** against Israeli forces in southern Lebanon (mid-2026)
-- **Cost-exchange ratio** of ~16,700:1 in the attacker's favor (two $30K drones vs one $1B radar system)
+- **Cost-exchange ratio** of ~16,700:1 in the attacker's favor (two $30K drones vs one $1B THAAD battery)
 
 ### Why Current Defenses Are Failing
 
 | Defense System | Cost/Engagement | Reusable? | Works vs Fiber-Optic? | Scalable? |
 |---|---|---|---|---|
-| Patriot PAC-3 | $3–4M | No | N/A (not used vs FPV) | No (limited production) |
+| Patriot PAC-3 MSE | $4–5M | No | N/A (not used vs FPV) | No (limited production) |
 | NASAMS AMRAAM | $1–1.5M | No | N/A | Limited |
 | Electronic Warfare | $0 per engagement | Yes | **NO** | Yes |
-| Interceptor Drone | $2,100–5,000 | No | Limited | Moderate |
+| Interceptor Drone | $1,000–2,500 | No | Limited | Moderate |
 | **CF Net at Altitude** | **$0** | **Yes** | **YES** | **Yes** |
 
 ### The Gap This Concept Fills
@@ -355,7 +355,7 @@ Carbon fiber has a brittle failure mode (elongation at break: 1.5–2.0%). Criti
 
 | Platform | Type | Payload | Max Altitude | Endurance | Status | Estimated Cost |
 |---|---|---|---|---|---|---|
-| TCOM 74K Aerostat | Tethered | 500 kg | 1,500m | Up to 30 days | **Operational** | $2–5M |
+| TCOM 74K Aerostat | Tethered | 500 kg | 1,500m | Up to 20 days | **Operational** | $2–5M |
 | TCOM 420K Aerostat | Tethered | 1,000+ kg | 4,600m | Up to 30 days | **Operational** | $5–10M |
 | Zeppelin NT | Semi-rigid airship | 1,900 kg | 3,000m | ~22 hrs | **Operational** | $15–20M |
 | Kelluu Airship | Autonomous | Sensor-only | ~1,000m | 12–24 hrs | **Operational** | Classified |
@@ -396,12 +396,12 @@ Carbon fiber has a brittle failure mode (elongation at break: 1.5–2.0%). Criti
 
 | Threat | Cruise Altitude | Terminal Altitude | Speed | Unit Cost | Source |
 |---|---|---|---|---|---|
-| Shahed-136 (low mode) | 30–500m AGL | Ground level | 185 km/h | $10–20K | [1][2] |
-| Shahed-136 (high mode) | 1,500–4,000m | Dive from 1km | 185 km/h | $10–20K | [2][3] |
+| Shahed-136 (low mode) | 30–500m AGL | Ground level | 185 km/h | $20–50K | [1][2] |
+| Shahed-136 (high mode) | 1,500–4,000m | Dive from 1km | 185 km/h | $20–50K | [2][3] |
 | Kh-101 cruise missile | 30–70m (terrain-following) | Steep dive | 700–970 km/h | $2–2.4M | [4][5] |
-| Kalibr cruise missile | 50–150m (land) | Variable | 880 km/h+ | $500K–1M | [6][7] |
+| Kalibr cruise missile | 50–150m (land) | Variable | ~980 km/h (Mach 0.8) | $500K–1M | [6][7] |
 | FPV drone (combat) | 1–10m | Direct impact | 80–120 km/h | $300–800 | [8] |
-| Fiber-optic FPV | 2–4m | Direct impact | 40–50 km/h | $500–1,500 | [9][10] |
+| Fiber-optic FPV | 2–4m | Direct impact | 50–80 km/h | $500–1,500 | [9][10] |
 | Geran-4 (jet-powered) | 100–2,000m | Variable | 500+ km/h | $30–50K | [11] |
 | Recon drone | 500–3,000m | N/A | 100–250 km/h | $50–500K | Various |
 
@@ -529,7 +529,7 @@ The carbon fiber net system has **zero cost per intercept** after deployment:
 
 Rafael Advanced Defense Systems has introduced three systems targeting the drone threat:
 
-1. **Iron Beam** (100kW High-Energy Laser): Delivered to IDF December 28, 2025. First operational laser air defense system in the world. Engages drones, rockets, and mortars at ranges up to 7-10 km. Cost per engagement: ~$3.50 in energy. Integrated with Iron Dome C2 network. (Source: Israel MOD press release, Dec 2025; Rafael official product page; Army Technology)
+1. **Iron Beam** (100kW High-Energy Laser): Delivered to IDF December 28, 2025. First operational laser air defense system in the world. Engages drones, rockets, and mortars at ranges up to 7-10 km. Cost per engagement: ~$5–10 in energy. Integrated with Iron Dome C2 network. (Source: Israel MOD press release, Dec 2025; Rafael official product page; Army Technology)
 
 2. **Trophy APS** (Hard-Kill Active Protection): Upgraded in 2025 to counter kamikaze drones and top-attack munitions. AI-driven sensor fusion with 360-degree detection. Uses explosive effectors. Deployed on Merkava Mk IV, Namer, M1A2 Abrams, Leopard 2. Over 2 million operational hours. (Source: Army Recognition Jan 2025; Breaking Defense Oct 2024; Autonomy Global)
 
@@ -541,7 +541,7 @@ These systems are impressive but have critical limitations that passive CF net b
 
 | Factor | Iron Beam (Laser) | Trophy APS | Lite Beam (10kW) | CF Net Barrier |
 |---|---|---|---|---|
-| Cost per engagement | ~$3.50 (energy only) | Effector consumed | ~$1 (energy) | $0 (passive) |
+| Cost per engagement | ~$5–10 (energy only) | Effector consumed | ~$1 (energy) | $0 (passive) |
 | System acquisition cost | ~$50-100M per battery | ~$500K per vehicle | ~$1-5M | $2-50M per border section |
 | Works in fog/rain/dust? | NO - severely degraded | Yes | NO - degraded | YES - unaffected |
 | Works in smoke/obscurants? | NO | Partially | NO | YES |
@@ -564,7 +564,7 @@ These systems are impressive but have critical limitations that passive CF net b
 
 3. **Fiber-optic drone blindness**: Iron Beam and Lite Beam need to DETECT the threat first. Fiber-optic FPV drones emit zero RF, have minimal IR signature, and fly at 2-4m altitude. They are nearly invisible to radar. A physical net catches them regardless of detection.
 
-4. **Zero marginal cost at scale**: Iron Beam's $3.50/shot sounds cheap, but the system costs $50-100M. The amortized cost per kill including system acquisition is $500-2,000 (Ukraine War Analytics). CF net: $0 per intercept, forever, after one-time deployment.
+4. **Zero marginal cost at scale**: Iron Beam's $5–10/shot sounds cheap, but the system costs $50-100M. The amortized cost per kill including system acquisition is $500-2,000 (Ukraine War Analytics). CF net: $0 per intercept, forever, after one-time deployment.
 
 5. **No single point of failure**: A laser battery can be destroyed by a single missile hit. A net barrier is distributed — destroying one section doesn't eliminate the barrier. Panels are replaced for $4-10/sqm.
 
@@ -682,7 +682,7 @@ This is not "nets OR lasers" — it is "nets AND lasers." The CF net barrier is 
 | Israel-Jordan | 482 km | $141–405M | Chokepoint strategy at corridors |
 | **TOTAL** | **~640–680 km** | **$401M–$1.1B** | **Permanent passive defense** |
 
-**Context:** Israel's annual defense budget exceeds $30B. Iron Dome development cost ~$3B. A single night's Patriot-class defense costs $200M+. This is a one-time investment for permanent protection.
+**Context:** Israel's annual defense budget exceeds $45B (2026). Iron Dome development cost ~$3B. A single night's Patriot-class defense costs $200M+. This is a one-time investment for permanent protection.
 
 ---
 
@@ -738,7 +738,7 @@ This is not "nets OR lasers" — it is "nets AND lasers." The CF net barrier is 
 
 ### "Current systems work fine"
 
-**Reality:** Ukraine's interception rate is 70–85%. On a 200-drone salvo, 30–60 warheads reach targets every night. Two $30K drones destroyed a $1B AN/TPY-2 radar. The cost-exchange ratio is ~16,700:1 favoring the attacker.
+**Reality:** Ukraine's interception rate is 70–85%. On a 200-drone salvo, 30–60 warheads reach targets every night. Two $30K drones destroyed a $1B THAAD battery (radar alone ~$300–500M). The cost-exchange ratio is ~16,700:1 favoring the attacker.
 
 ### "Nets can't stop missiles"
 

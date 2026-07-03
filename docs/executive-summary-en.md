@@ -55,7 +55,7 @@ Rafael delivered Iron Beam (100kW laser, Dec 2025) and upgraded Trophy APS for d
 
 | Factor | Iron Beam | Trophy APS | CF Net Barrier |
 |--------|-----------|------------|----------------|
-| Cost/engagement | $3.50 energy ($50-100M system) | Effector consumed | **$0** |
+| Cost/engagement | $5-10 energy ($50-100M system) | Effector consumed | **$0** |
 | Works in fog/rain? | **NO** | Yes | **YES** |
 | Swarm defense (50+) | 12/min max | 1 at a time | **All simultaneously** |
 | Fiber-optic FPV? | Must detect first | Close-range only (<50m) | **YES (passive)** |
@@ -91,7 +91,7 @@ Rafael delivered Iron Beam (100kW laser, Dec 2025) and upgraded Trophy APS for d
 | Israel-Jordan | 482 km | 40–64 (chokepoints) | 1 | $141–405M |
 | **Total** | **~640 km** | **78–122** | **4–6** | **$401M–$1.1B** |
 
-**Context**: Israel's defense budget >$30B/year. Iron Dome cost ~$3B. One night's Patriot defense costs $200M+.
+**Context**: Israel's defense budget >$45B/year (2026). Iron Dome cost ~$3B. One night's Patriot defense costs $200M+.
 
 ### Airship Self-Protection
 - Helium airships remain flyable after **hundreds of bullet holes** (US/UK live-fire testing)
