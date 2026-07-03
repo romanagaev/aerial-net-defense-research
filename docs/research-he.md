@@ -5,7 +5,7 @@
 **סיווג:** לא מסווג — מחקר מקורות פתוחים  
 **מחברים:** מחקר וניתוח בסיוע בינה מלאכותית  
 
-![System Concept](cf-net-defense-concept.png)
+![System Concept](../images/infographics/cf-net-defense-concept.png)
 
 ---
 
@@ -377,7 +377,7 @@ pie title Material Weight Comparison (g/sqm)
 
 ## 7. ניתוח איומים: מטרות בגבהים מרובים
 
-![Altitude Threat Coverage](altitude-threat-coverage.png)
+![Altitude Threat Coverage](../images/infographics/altitude-threat-coverage.png)
 
 ### פרופילי גובה טיסת איומים
 
@@ -473,7 +473,7 @@ pie title Material Weight Comparison (g/sqm)
 
 ## 9. ניתוח היתכנות כלכלית
 
-![Cost Comparison](cost-comparison-infographic.png)
+![Cost Comparison](../images/infographics/cost-comparison-infographic.png)
 
 ### עלות מערכת לפי תצורה
 
@@ -508,7 +508,7 @@ pie title Material Weight Comparison (g/sqm)
 
 ## 10. מקרה בוחן: הגנת גבולות ישראל
 
-![Border Deployment Map](border-deployment-map.png)
+![Border Deployment Map](../images/infographics/border-deployment-map.png)
 
 ### מקרה בוחן 1: גבול ישראל-לבנון (הקו הכחול)
 

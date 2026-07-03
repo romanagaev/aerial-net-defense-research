@@ -4,7 +4,7 @@
 
 ---
 
-![מושג המערכת](cf-net-defense-concept.png)
+![מושג המערכת](../images/infographics/cf-net-defense-concept.png)
 
 ## ממצא מרכזי
 
@@ -43,13 +43,13 @@
 2. **נגד טילים**: מפעיל נצרה מיידית (SQ fuse) → פיצוץ מוקדם במרחק בטוח מהמטרה
 3. **נגד FPV סיב אופטי**: רק מחסום פיזי עובד — רשת CF היא הפתרון
 
-![כיסוי איומים רב-גובהי](altitude-threat-coverage.png)
+![כיסוי איומים רב-גובהי](../images/infographics/altitude-threat-coverage.png)
 
 ---
 
 ## ניתוח עלויות
 
-![השוואת עלויות](cost-comparison-infographic.png)
+![השוואת עלויות](../images/infographics/cost-comparison-infographic.png)
 
 | תרחיש | עלות | הערות |
 |--------|------|-------|
@@ -62,7 +62,7 @@
 
 ## יישום הגנת גבולות (ישראל)
 
-![מפת פריסת גבולות](border-deployment-map.png)
+![מפת פריסת גבולות](../images/infographics/border-deployment-map.png)
 
 | גבול | אורך | אווירוסטטים | ספינות אוויר | השקעה |
 |-------|-------|-------------|-------------|--------|

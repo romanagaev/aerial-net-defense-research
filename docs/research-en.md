@@ -5,7 +5,7 @@
 **Classification:** UNCLASSIFIED — Open Source Research  
 **Authors:** AI-Assisted Research & Analysis  
 
-![System Concept](cf-net-defense-concept.png)
+![System Concept](../images/infographics/cf-net-defense-concept.png)
 
 ---
 
@@ -124,7 +124,7 @@ Fund a **$2–5M proof-of-concept** using existing tethered aerostat platforms a
 
 ### Multi-Layer Defense Architecture
 
-![Defense Layers](diagram-defense-layers.png)
+![Defense Layers](../images/diagrams/diagram-defense-layers.png)
 
 ---
 
@@ -284,7 +284,7 @@ A horizontal net deployed at 300-1000m leaves a gap beneath it where FPV drones 
 
 Instead of only horizontal nets, the primary configuration should be a **vertical net curtain** — a continuous wall of carbon fiber mesh hanging from aerostats down to ground level, inspired by WW2 barrage balloon curtains.
 
-![Net Curtain Concept](net-curtain-concept.png)
+![Net Curtain Concept](../images/infographics/net-curtain-concept.png)
 
 **Historical precedent:** During WW1-WW2, Britain deployed barrage balloon curtains that stretched 50 miles (80 km) around London. Steel cables were strung between balloons, with more cables hanging vertically at 25-yard intervals. These reached operational heights of 7,000-10,000 feet (2,100-3,000m). German pilots expressed "great fear" of them. (Source: Wikipedia "Barrage balloon"; DTIC report ADA192618)
 
@@ -348,7 +348,7 @@ This creates a "comb" of vertical cables that any drone or missile must pass thr
 
 Note: These are SMALL, inexpensive aerostats (similar to Russia's Barrier balloons, ~$10-50K each), NOT the large TCOM systems. Total cost for 316 small aerostats + CF cable/pendants for Lebanon border: estimated $15-50M.
 
-![Curtain Concept Diagram](diagram-curtain-concept.png)
+![Curtain Concept Diagram](../images/diagrams/diagram-curtain-concept.png)
 
 ---
 
@@ -368,7 +368,7 @@ Carbon fiber mesh (grid configuration, 20mm openings) offers a unique combinatio
 | Production capacity | **750,000 sqm/week** (single factory) | Limited | Limited | Moderate |
 | Supply chain | Massive (construction) | Specialty | Specialty | Moderate |
 
-![Material Weight Comparison](diagram-material-weight.png)
+![Material Weight Comparison](../images/diagrams/diagram-material-weight.png)
 
 ### Addressing the Brittleness Concern
 
@@ -437,7 +437,7 @@ Carbon fiber has a brittle failure mode (elongation at break: 1.5–2.0%). Criti
 
 ## 7. Threat Analysis: Multi-Altitude Targets
 
-![Altitude Threat Coverage](altitude-threat-coverage.png)
+![Altitude Threat Coverage](../images/infographics/altitude-threat-coverage.png)
 
 ### Threat Flight Altitude Profiles
 
@@ -547,13 +547,13 @@ This means the SAME aerostat that carries the net barrier can ALSO carry:
 
 The net + interceptor combination creates a **layered defense from a single platform**: passive net catches anything that approaches, active interceptors engage threats detected before they reach the net.
 
-![Self-Protection Layers](diagram-self-protection.png)
+![Self-Protection Layers](../images/diagrams/diagram-self-protection.png)
 
 ---
 
 ## 9. Cost Feasibility Analysis
 
-![Cost Comparison](cost-comparison-infographic.png)
+![Cost Comparison](../images/infographics/cost-comparison-infographic.png)
 
 ### System Cost by Configuration
 
@@ -588,7 +588,7 @@ The carbon fiber net system has **zero cost per intercept** after deployment:
 
 ## 10. Use Case: Israeli Border Defense
 
-![Border Deployment Map](border-deployment-map.png)
+![Border Deployment Map](../images/infographics/border-deployment-map.png)
 
 ### Case Study 1: Israel-Lebanon Border (Blue Line)
 
@@ -616,7 +616,7 @@ The carbon fiber net system has **zero cost per intercept** after deployment:
 
 **Total estimated investment: $170–430M**
 
-![Lebanon Deployment](diagram-lebanon-deployment.png)
+![Lebanon Deployment](../images/diagrams/diagram-lebanon-deployment.png)
 
 **Terrain advantage:** The border terrain favors net deployment. The Galilee Panhandle (narrow corridor between ridges) is ideal for cross-valley net barriers. Hills of 700–800m on the Lebanese side provide natural windbreaks. Border roads often run within 100m of each other — even modest net coverage creates effective barriers.
 
@@ -645,7 +645,7 @@ The carbon fiber net system has **zero cost per intercept** after deployment:
 
 **Total estimated investment: $90–264M**
 
-![Golan Deployment](diagram-golan-deployment.png)
+![Golan Deployment](../images/diagrams/diagram-golan-deployment.png)
 
 **Terrain advantage:** The Golan plateau sits at 120–520m elevation with a 500m escarpment. Threats from Syria must cross this altitude band. Mount Hermon (2,814m) provides the highest natural anchor point — an aerostat tethered near the summit covers the northern sector at extreme altitude.
 
@@ -672,7 +672,7 @@ The carbon fiber net system has **zero cost per intercept** after deployment:
 
 **Total estimated investment: $141–405M**
 
-![Jordan Deployment](diagram-jordan-deployment.png)
+![Jordan Deployment](../images/diagrams/diagram-jordan-deployment.png)
 
 ### Combined Border Defense Summary
 
@@ -761,7 +761,7 @@ The carbon fiber net system has **zero cost per intercept** after deployment:
 
 ## 14. Development Roadmap
 
-![Development Roadmap](diagram-roadmap.png)
+![Development Roadmap](../images/diagrams/diagram-roadmap.png)
 
 ### Phase 1: Proof of Concept (0–6 months, ~$2–5M)
 

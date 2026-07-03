@@ -4,7 +4,7 @@
 
 ---
 
-![System Concept](cf-net-defense-concept.png)
+![System Concept](../images/infographics/cf-net-defense-concept.png)
 
 ## Key Finding
 
@@ -43,13 +43,13 @@ Deploying carbon fiber mesh nets from zeppelins/airships at altitudes of 1–6 k
 2. **Against missiles**: Triggers super-quick fuse → premature detonation at safe distance
 3. **Against fiber-optic FPV**: Only physical barriers work — CF net is the solution
 
-![Altitude Threat Coverage](altitude-threat-coverage.png)
+![Altitude Threat Coverage](../images/infographics/altitude-threat-coverage.png)
 
 ---
 
 ## Cost Analysis
 
-![Cost Comparison](cost-comparison-infographic.png)
+![Cost Comparison](../images/infographics/cost-comparison-infographic.png)
 
 | Scenario | Cost | Notes |
 |----------|------|-------|
@@ -62,7 +62,7 @@ Deploying carbon fiber mesh nets from zeppelins/airships at altitudes of 1–6 k
 
 ## Border Defense Application (Israel)
 
-![Border Deployment Map](border-deployment-map.png)
+![Border Deployment Map](../images/infographics/border-deployment-map.png)
 
 | Border | Length | Aerostats Needed | Airlanders | Investment |
 |--------|--------|-----------------|------------|-----------|
