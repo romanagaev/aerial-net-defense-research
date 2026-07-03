@@ -8,33 +8,59 @@
 
 | Parameter | Value |
 |-----------|-------|
-| Material | Carbon fiber mesh (20mm grid) |
-| Weight | 140–160 g/sqm |
+| Material | Carbon fiber mesh / cable pendants |
+| Weight | 140–160 g/sqm (mesh); 0.5 kg/pendant (cables) |
 | Cost | $4–10/sqm (commodity pricing) |
 | Tensile Strength | ≥3,000 MPa |
-| Platform | Tethered aerostats → Airlander 10 airship |
-| Coverage | 2,500–50,000 sqm per platform |
+| Platform | Tactical aerostats (near-term) → Airlander 10 (medium-term) |
+| Coverage | 2.5 km per battery (10 aerostats) |
 | Cost per intercept | **$0** (passive, reusable, 24/7) |
+| Intermediate IOC | **6 months** using existing platforms |
 | Feasibility Score | **8.4/10** |
 
 ## The Problem
 
-- Fiber-optic FPV drones are **immune to ALL electronic warfare**
-- Current defense costs are unsustainable: $3–4M Patriot missiles vs $10–30K drones
+- Fiber-optic FPV drones are **immune to ALL electronic warfare** — 80+ attacks in southern Lebanon (July 2026)
+- Current defense costs are unsustainable: $4–5M Patriot MSE vs $20–50K drones
+- Even Iron Beam laser ($5–10/shot) fails in fog/rain and handles only 12 drones/min vs swarms of 200
 - Mass saturation attacks (100–700 drones/night) overwhelm active systems
 - No existing system provides passive, reusable, zero-cost-per-intercept aerial defense
 
 ## The Solution
 
-Deploy lightweight carbon fiber mesh nets from lighter-than-air platforms (zeppelins, airships, tethered aerostats) at altitudes matching threat flight profiles (ground level to 6,000m), creating passive physical barriers that intercept drones and trigger missile fuses at safe distance.
-
-![Altitude Threat Coverage](images/infographics/altitude-threat-coverage.png)
-
-### Net Curtain: Ground to Altitude
-
-The vertical "net curtain" configuration — inspired by WW2 barrage balloon curtains — hangs carbon fiber mesh from aerostats all the way to ground level, eliminating gaps where low-altitude threats (FPV drones at 1–10m, cruise missiles at 30–70m) could pass.
+Deploy CF cable pendants and mesh nets from tactical aerostats, creating vertical "net curtain" barriers from ground level to 500m — inspired by WW1 barrage balloon curtains that protected London for 50 miles.
 
 ![Net Curtain Concept](images/infographics/net-curtain-concept.png)
+
+### CF Net vs Iron Beam & Trophy APS
+
+![CF Net vs Active Defense](images/infographics/cf-net-vs-active-defense.png)
+
+**Not nets OR lasers — nets AND lasers.** Rafael themselves state Trophy "alone cannot provide comprehensive air defense" and advocate layered strategy. CF net barriers are the missing passive layer.
+
+## Intermediate Solution (Deployable in 6 Months)
+
+Using existing platforms already in military service:
+
+| Platform | Payload | Altitude | Deploy Time | Status |
+|---|---|---|---|---|
+| Skystar 180 (IDF) | 18 kg | 300m | 20 min | Operational |
+| Silicis DURUS (US Army) | 30+ kg | 500m | Minutes | Evaluated 2025 |
+| Aerobavovna AB12TC (Ukraine) | 5.66 kg | 100–700m | 7 min | 50+ deployed |
+
+**6-month plan:** 10–40 tactical aerostats with CF cable pendants at border chokepoints. $3–10M investment. 2.5–10 km continuous barrier per battery.
+
+## Tactical Employment with Ground Forces
+
+The same system operates as mobile defense for ground units:
+- **FOB protection** — 4–8 aerostats in circular perimeter (20–30 min setup)
+- **Convoy escort** — leapfrog deployment (2 teams alternating)
+- **Assembly area defense** — grid pattern, 250m spacing
+- **Border surge** — mobile batteries reposition in 1–2 hours
+
+## Altitude Coverage
+
+![Altitude Threat Coverage](images/infographics/altitude-threat-coverage.png)
 
 ## Cost Analysis
 
@@ -51,9 +77,19 @@ The vertical "net curtain" configuration — inspired by WW2 barrage balloon cur
 | Israel-Jordan | 482 km | $141–405M | Chokepoint anti-drone defense |
 | **Total** | **~640 km** | **$401M–$1.1B** | **Permanent passive defense** |
 
+**Context**: Israel's defense budget >$45B/year (2026). Iron Dome cost ~$3B. One night's Patriot defense costs $200M+.
+
+## Development Roadmap
+
+![Development Roadmap](images/diagrams/diagram-roadmap.png)
+
+## Layered Defense Architecture
+
+![Layered Architecture](images/infographics/layered-defense-architecture.png)
+
 ## Documents
 
-### Full Research (52+ pages)
+### Full Research (60+ pages)
 
 | Language | Markdown | Word | PDF |
 |----------|----------|------|-----|
@@ -67,17 +103,18 @@ The vertical "net curtain" configuration — inspired by WW2 barrage balloon cur
 | English | [executive-summary-en.md](docs/executive-summary-en.md) | [executive-summary-en.docx](exports/executive-summary-en.docx) | [executive-summary-en.pdf](exports/executive-summary-en.pdf) |
 | Hebrew | [executive-summary-he.md](docs/executive-summary-he.md) | [executive-summary-he.docx](exports/executive-summary-he.docx) | — |
 
+### Verification Report
+
+[verification-report.md](docs/verification-report.md) — 78 claims verified, all 14 errors corrected, 0 remaining.
+
 ## Validation
 
-- All references **triple-verified** by independent AI agents against original sources
-- All calculations **independently verified** with step-by-step mathematical proofs
-- Existing patents validate core concept: PCNS (EP3769030A1), AB-Net (AIAA 2008-6863)
-- Russia's "Barrier" system (2024) demonstrates balloon+net defense at tactical level
+- All references **triple-verified** — 53 sources with clickable URLs
+- All calculations **independently verified** (7/7 confirmed)
+- Existing patents validate concept: PCNS (EP3769030A1), AB-Net (AIAA 2008-6863)
+- Russia's "Barrier" system (2024) demonstrates balloon+net at tactical level
 - Ukraine deploys aerostat-launched interceptor drones operationally (2025–2026)
-
-## Research Methodology
-
-Multi-source OSINT combining: technical data from manufacturers, combat data from Ukraine/Lebanon (2022–2026), patent research, economic modeling, and geographic analysis for border deployment case studies.
+- US Army evaluating DURUS aerostat for counter-drone role (2025)
 
 ## How to Cite
 
@@ -88,7 +125,7 @@ Multi-source OSINT combining: technical data from manufacturers, combat data fro
   year    = {2026},
   month   = {July},
   url     = {https://github.com/romanagaev/aerial-net-defense-research},
-  note    = {Open source feasibility study, v1.1}
+  note    = {Open source feasibility study, v1.2}
 }
 ```
 
