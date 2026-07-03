@@ -791,6 +791,168 @@ This is not "nets OR lasers" — it is "nets AND lasers." The CF net barrier is 
 
 ---
 
+## 14A. Intermediate Solution: Operational Capability Within 6 Months
+
+This section presents a deployable intermediate solution achievable within 6 months using only commercially available components, without waiting for full Airlander 10 development.
+
+### Concept: Tactical Aerostat + CF Cable Pendant System
+
+Using existing tactical aerostats (TCOM 12M/22M, Skystar 180, Silicis DURUS, or Aerobavovna AB12TC) combined with carbon fiber cable pendants, a functional barrier can be deployed within 6 months at $3–10M investment per border sector.
+
+### Available Platforms (Operational TODAY)
+
+| Platform | Payload | Altitude | Endurance | Deploy Time | Cost | Source |
+|---|---|---|---|---|---|---|
+| TCOM 12M | ~15 kg | 300m | Days | Hours | ~$200K | [T16] |
+| TCOM 22M | ~50 kg | 500m | Days–weeks | Hours | ~$500K | [T16] |
+| Skystar 180 (RT LTA) | 18 kg | 300m | 72 hrs continuous | 20 minutes | ~$300K | [T13] |
+| Silicis DURUS | 30+ kg | 500m | Days–weeks | Minutes | ~$500K | [T14] |
+| Aerobavovna AB12TC | 5.66 kg (10/25 kg models pending) | 100–700m | 72 hrs | 7 minutes | ~$40K | [T15] |
+
+### 6-Month Deployment Plan
+
+**Month 1–2: Procurement & Testing**
+- Procure 10–20 tactical aerostats (Skystar 180 or DURUS class)
+- Order CF cable material in bulk: 1mm diameter CF cables, 100,000m at ~$1/m = $100K
+- Begin cable pendant integration testing (CF cables hung from aerostat tether)
+
+**Month 3–4: Integration & Field Trials**
+- Integrate CF cable pendants with aerostat tether systems
+- Each aerostat deploys 50–100 vertical CF pendants (2m spacing, 100–300m long)
+- Test against target drones at military proving ground
+- Integrate with existing C-UAS radar for threat cueing
+
+**Month 5–6: Initial Operational Capability (IOC)**
+- Deploy first battery of 10 aerostats along Israel-Lebanon border at critical chokepoints
+- Configuration: aerostats at 300–500m, CF pendants hanging to near-ground level
+- Coverage: 10 aerostats × 250m spacing = 2.5 km of continuous barrier per battery
+- 4 batteries = 10 km coverage at highest-priority sectors
+
+### Intermediate Solution Specifications
+
+| Parameter | Value |
+|---|---|
+| Deployment timeline | 6 months to IOC |
+| Investment | $3–10M per border sector |
+| Aerostat units (first deployment) | 10–40 tactical aerostats |
+| Coverage per battery (10 units) | 2.5 km continuous barrier |
+| Barrier height | Ground level to 300–500m |
+| CF pendant spacing | 2m (too narrow for any drone to navigate) |
+| Pendant length | 100–300m (ground to aerostat) |
+| Weight per pendant (1mm CF, 300m) | ~0.5 kg |
+| Total pendant weight per aerostat (100 pendants) | ~50 kg (within TCOM 22M / DURUS capacity; Skystar uses fewer/shorter pendants) |
+| Operational endurance | 72 hrs (Skystar); days–weeks (DURUS/TCOM) |
+
+### Why This Doesn't Contradict the Full Plan
+
+This IS Phase 1 of the roadmap — using the same CF material and cable pendant concept. When Phase 2/3 platforms (TCOM 74K/420K, Airlander 10) arrive, the tactical aerostats become:
+- Forward screening elements for the larger system
+- Rapid-reaction mobile units that fill gaps
+- Training platforms for operator development
+- Reserve systems for surge capacity during mass attacks
+
+### Combat Validation
+
+- Ukraine deployed 50+ Aerobavovna aerostats operationally (codified May 2026, The Defender Media)
+- US Army evaluated DURUS at Camp Atterbury 2025: 100% FMC, 97.5% mission hours (Defence Blog)
+- Skystar 180 operationally proven by IDF and multiple NATO forces (RT LTA Systems)
+- Russia's Barrier system uses similar small aerostats with nets — tested, orders received (Business Insider, Militarnyi)
+
+---
+
+## 14B. Tactical Employment: Mobile Aerostat Operations with Ground Forces
+
+### Concept: Aerostat Batteries as Organic Unit Protection
+
+Tactical aerostats with CF pendants can be employed as mobile defense assets attached to ground force units, providing on-the-move and position-based drone protection.
+
+### Configuration 1: Forward Operating Base (FOB) Protection
+
+| Element | Specification |
+|---|---|
+| Configuration | 4–8 aerostats in circular perimeter |
+| Spacing | 200–250m between aerostats |
+| Coverage | 600–800m diameter protected zone |
+| Altitude | 300–500m with pendants to ground |
+| Setup time | 30–60 minutes (Skystar/DURUS class) |
+| Teardown | 20–30 minutes |
+
+### Configuration 2: Convoy Protection (Leapfrog Method)
+
+Moving forces cannot trail tethered aerostats while driving. Solution: **leapfrog deployment**.
+
+- 2 teams of 3 aerostats each
+- Team A deploys at waypoint 1, provides cover while convoy passes
+- Team B deploys at waypoint 2 (5–10 km ahead)
+- Team A retrieves, drives ahead to waypoint 3
+- Cycle continues along route
+
+| Element | Specification |
+|---|---|
+| Teams | 2 teams × 3 aerostats = 6 total |
+| Vehicles | 6 trailer-mounted systems |
+| Leapfrog distance | 5–10 km segments |
+| Setup/teardown | 20 min each (Skystar 180) |
+| Convoy speed compatibility | 30–50 km/h |
+| Coverage per position | 750m diameter overhead barrier |
+
+### Configuration 3: Assembly Area / Staging Ground Protection
+
+When forces concentrate (pre-attack staging, logistics hub, HQ):
+- Deploy 6–12 aerostats in grid pattern
+- 250m spacing creates continuous overhead + side barrier
+- Transition from mobile to static in 30–60 minutes
+
+### Configuration 4: Border Sector Reinforcement (Surge)
+
+During intelligence-indicated threat escalation:
+- Mobile aerostat batteries reposition from quiet sectors to threatened sectors
+- 4 trailer-mounted aerostats redeploy 50–100 km in 1–2 hours
+- Operational in 30 minutes after arrival
+
+### Grouping Doctrine
+
+| Unit Size | Aerostats | Coverage | Command Level |
+|---|---|---|---|
+| Platoon screen | 2–3 | Point (500m) | Platoon sergeant |
+| Company position | 4–8 | Perimeter (800m dia.) | Company commander |
+| Battalion assembly | 8–16 | Full (1.5 km dia.) | Battalion S3 |
+| Brigade staging | 16–32 | Wide area (3 km dia.) | Brigade air defense officer |
+| Border sector (static) | 40–100 | Continuous (10–25 km) | Division/theater |
+
+### Mobile Employment Principles
+
+1. **Move with the force** — aerostats on trailers move in convoy, deploy at halts
+2. **Leapfrog for coverage** — alternating teams ensure no gap in protection
+3. **Concentrate for mass** — group aerostats when forces concentrate
+4. **Disperse for survivability** — spread when artillery/rocket threat exists
+5. **Integrate with C-UAS** — net barrier catches; EW/guns handle leakers
+6. **Rapid transition** — same equipment serves mobile, semi-static, and static missions
+
+### Integration with Existing IDF Doctrine
+
+The IDF already uses Skystar aerostats for surveillance. Adding CF pendant payloads is an incremental upgrade:
+
+- **Skystar 180** (RT LTA Systems, Israel) — in IDF service, trailer-based, 30-min deploy
+- **DURUS** (Silicis, US) — US Army evaluated, minutes to deploy, C-UAS capable
+- **AB12TC** (Aerobavovna, Ukraine) — combat-proven, $40K/unit, 50+ deployed operationally
+
+These platforms have existing procurement channels, training programs, and logistic support.
+
+### References
+
+[T12] Defence Blog, "U.S. Army evaluates aerostats for counter-drone role" — DURUS at Camp Atterbury 2025. https://defence-blog.com/u-s-army-evaluates-aerostats-for-counter-drone-role/
+
+[T13] RT Aerostat (RT LTA Systems), "Skystar 180" — tactical aerostat specs. https://rtaerostat.com/skystar-180
+
+[T14] Silicis Technologies, "DURUS Tactical Aerostat." https://www.silicis.com/durus-01
+
+[T15] The Defender Media, "Ministry of Defence codifies Aerobavovna's first aerostat" — 50+ deployed, May 2026. https://thedefender.media/en/2026/05/aerostat-aerobavovna/
+
+[T16] TCOM LP, "Tethered Aerostats — Tactical Platforms." https://tcomlp.com/aerospace-platforms/tethered-aerostats/
+
+---
+
 ## 15. Conclusions & Recommendations
 
 ### Key Conclusions

@@ -134,7 +134,25 @@ gantt
 
 ---
 
-*Full research document (40+ pages) available upon request.*  
+---
+
+### Intermediate Solution (Deployable in 6 Months)
+
+Deploy 10–40 tactical aerostats (Skystar 180/DURUS class, already in IDF service) with CF cable pendants at border chokepoints.
+
+| Parameter | Value |
+|---|---|
+| Coverage per battery (10 units) | 2.5 km continuous barrier |
+| Barrier height | Ground level to 300–500m |
+| Investment | $3–10M per sector |
+| Deploy time | 30 minutes per aerostat |
+| Tactical mobility | Trailer-based, moves with ground forces |
+
+Also operates tactically: FOB perimeter defense (30-min setup), convoy escort (leapfrog method), assembly area protection. Same equipment serves mobile, semi-static, and static missions.
+
+---
+
+*Full research document (60+ pages) available upon request.*  
 *Research date: July 3, 2026 | Classification: UNCLASSIFIED — Open Source*
 
 ### References (Selected)
