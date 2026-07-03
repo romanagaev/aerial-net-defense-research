@@ -67,29 +67,7 @@ All numerical calculations have been independently verified with step-by-step ma
 
 ### Analytical Framework
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    FEASIBILITY ASSESSMENT                     │
-├──────────────────┬──────────────────┬───────────────────────┤
-│  TECHNICAL       │  ECONOMIC        │  OPERATIONAL          │
-│  - Physics       │  - Material cost │  - Deployment time    │
-│  - Materials     │  - Platform cost │  - Maintainability    │
-│  - Platforms     │  - Operations    │  - Survivability      │
-│  - Engineering   │  - Comparison    │  - Scalability        │
-└──────────────────┴──────────────────┴───────────────────────┘
-         │                    │                    │
-         ▼                    ▼                    ▼
-┌─────────────────────────────────────────────────────────────┐
-│              CASE STUDY APPLICATION                           │
-│  Israel-Lebanon │ Israel-Syria │ Israel-Jordan               │
-└─────────────────────────────────────────────────────────────┘
-         │                    │                    │
-         ▼                    ▼                    ▼
-┌─────────────────────────────────────────────────────────────┐
-│              DEVELOPMENT ROADMAP                             │
-│  Phase 1 (0-6mo) │ Phase 2 (6-18mo) │ Phase 3 (18-36mo)   │
-└─────────────────────────────────────────────────────────────┘
-```
+![Feasibility Assessment Framework](../images/diagrams/diagram-feasibility-framework.png)
 
 ---
 
@@ -174,33 +152,7 @@ Deploy lightweight carbon fiber mesh nets from lighter-than-air platforms (zeppe
 
 ### System Architecture
 
-```
-                          ┌─────────────────┐
-                          │  AIRLANDER 10   │
-                          │  (Strategic)     │
-                          │  Alt: 3-6 km    │
-                          │  Coverage: 6 ha  │
-                          └────────┬────────┘
-                                   │ CF Net
-                    ┌──────────────┼──────────────┐
-                    │              │              │
-              ┌─────┴─────┐ ┌─────┴─────┐ ┌─────┴─────┐
-              │ AEROSTAT  │ │ AEROSTAT  │ │ AEROSTAT  │
-              │ (420K)    │ │ (420K)    │ │ (420K)    │
-              │ Alt: 1-3km│ │ Alt: 1-3km│ │ Alt: 1-3km│
-              └─────┬─────┘ └─────┬─────┘ └─────┬─────┘
-                    │ CF Net      │ CF Net      │ CF Net
-              ┌─────┴─────┐ ┌─────┴─────┐ ┌─────┴─────┐
-              │ AEROSTAT  │ │ AEROSTAT  │ │ AEROSTAT  │
-              │ (74K)     │ │ (74K)     │ │ (74K)     │
-              │ Alt: 300m │ │ Alt: 500m │ │ Alt: 300m │
-              └─────┬─────┘ └─────┬─────┘ └─────┬─────┘
-                    │ CF Net      │ CF Net      │ CF Net
-    ════════════════╧═════════════╧═════════════╧══════════════
-                    GROUND LEVEL: Poles + CF Mesh (3-15m)
-    ══════════════════════════════════════════════════════════
-                         PROTECTED ZONE
-```
+![System Architecture](../images/diagrams/diagram-system-architecture.png)
 
 ### Operating Principle
 
@@ -455,25 +407,7 @@ Carbon fiber has a brittle failure mode (elongation at break: 1.5–2.0%). Criti
 
 ### Net Deployment Altitude Zones
 
-```
-6,000m ─────────────────────────────── Airlander 10 max ceiling
-        │                              │
-4,000m ─┤  Shaheds (high mode)         │ ZONE D: Strategic
-        │  Recon drones                │ Platform: Airlander 10
-4,600m ─┤─────────────────────────────── TCOM 420K max ceiling
-        │                              │
-2,000m ─┤  Jet drones                  │ ZONE C: High barrier
-        │  Shaheds (variable)          │ Platform: TCOM 420K
-1,500m ─┤─────────────────────────────── TCOM 74K max ceiling
-        │                              │
-  500m ─┤  Shaheds (low mode)          │ ZONE B: Mid barrier
-        │  Kalibr approach             │ Platform: TCOM 74K
-  200m ─┤                              │
-        │  Kh-101 terrain-following    │
-   50m ─┤                              │ ZONE A: Ground barrier
-        │  FPV drones (1-10m)          │ Platform: Poles + mesh
-    0m ─┤─────────────────────────────── Ground level
-```
+![Altitude Deployment Zones](../images/diagrams/diagram-altitude-zones.png)
 
 ---
 
