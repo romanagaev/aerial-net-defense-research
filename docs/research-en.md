@@ -793,6 +793,8 @@ This is not "nets OR lasers" — it is "nets AND lasers." The CF net barrier is 
 
 ## 14A. Intermediate Solution: Operational Capability Within 6 Months
 
+![Intermediate Solution Timeline](../images/infographics/intermediate-solution-timeline.png)
+
 This section presents a deployable intermediate solution achievable within 6 months using only commercially available components, without waiting for full Airlander 10 development.
 
 ### Concept: Tactical Aerostat + CF Cable Pendant System
@@ -861,6 +863,8 @@ This IS Phase 1 of the roadmap — using the same CF material and cable pendant 
 ---
 
 ## 14B. Tactical Employment: Mobile Aerostat Operations with Ground Forces
+
+![Tactical Employment Configurations](../images/infographics/tactical-employment-configs.png)
 
 ### Concept: Aerostat Batteries as Organic Unit Protection
 

@@ -17,7 +17,7 @@ Deploying carbon fiber mesh nets from zeppelins/airships at altitudes of 1–6 k
 ## The Problem
 
 - Fiber-optic FPV drones are **immune to ALL electronic warfare** — no jamming, no spoofing, no detection
-- Current defense costs are **unsustainable**: $3–4M Patriot missiles vs $10–30K drones (ratio: 150:1–300:1)
+- Current defense costs are **unsustainable**: $4–5M Patriot MSE missiles vs $20–50K drones
 - Mass saturation attacks (100–700 drones/night) **overwhelm active systems**
 - No existing system provides passive, reusable, zero-cost-per-intercept aerial defense
 - **80+ Hezbollah FPV attacks** against IDF in southern Lebanon in recent weeks (July 2026)
