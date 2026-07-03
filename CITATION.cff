@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this research, please cite it as below."
+title: "Carbon Fiber Net Defense from Airships: Feasibility Research"
+authors:
+  - family-names: Agaev
+    given-names: Roman
+type: report
+date-released: "2026-07-03"
+version: "1.1"
+url: "https://github.com/romanagaev/aerial-net-defense-research"
+repository-code: "https://github.com/romanagaev/aerial-net-defense-research"
+license: CC-BY-4.0
+keywords:
+  - counter-UAS
+  - carbon-fiber
+  - airship-defense
+  - drone-defense
+  - passive-air-defense
+  - border-security
+  - feasibility-study
+  - aerostat
+  - net-barrier
+abstract: >-
+  Feasibility research examining the deployment of carbon fiber mesh
+  nets from zeppelins, airships, and tethered aerostats as passive
+  area-denial defense against FPV drones, loitering munitions (Shaheds),
+  and cruise missiles. Includes material analysis, airship platform
+  assessment, cost-benefit modeling, border defense case studies
+  (Israel-Lebanon, Israel-Syria, Israel-Jordan), and development roadmap.
+  All references triple-verified against original sources.
